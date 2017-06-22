@@ -1,0 +1,36 @@
+section {
+  display: grid;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+body{
+  background-color: black;
+}
+
+.entraineur {
+grid-row-start: 1;
+}
+
+.gardien {
+grid-row-start: 2;
+}
+
+.defenseur {
+grid-row-start: 3;
+}
+
+.milieu_de_terrain {
+grid-row-start: 4;
+}
+
+.attaquant{
+grid-row-start: 5;
+}
+
+img {
+  height: 100px;
+}
